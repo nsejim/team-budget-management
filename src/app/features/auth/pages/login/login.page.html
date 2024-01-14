@@ -1,0 +1,24 @@
+<ion-content color="light" class="ion-text-center ion-padding-vertical">
+
+  <ion-item lines="none" color="light" class="ion-padding-vertical">
+  </ion-item>
+
+  <ion-row class="ion-padding-vertical">
+    <ion-col>
+      <ion-icon name="wallet-outline" class="logo"></ion-icon>
+    </ion-col>
+  </ion-row>
+
+  <div id="container" class="ion-padding-vertical">
+    Welcome to <strong>Team Budget Management</strong>
+  </div>
+
+  <ion-item lines="none" color="light">
+  </ion-item>
+
+  <ion-button fill="outline" color="dark" shape="round" (click)="authService.signWithGoogle()">
+    <ion-icon slot="start" name="logo-google"></ion-icon>
+    Sign In with Google
+  </ion-button>
+
+</ion-content>
