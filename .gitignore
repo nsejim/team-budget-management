@@ -70,3 +70,8 @@ Thumbs.db
 # Local Netlify folder
 .netlify
 .nx
+
+# Firebase
+.firebase
+*-debug.log
+.runtimeconfig.json
